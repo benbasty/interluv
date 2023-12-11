@@ -19,18 +19,18 @@ const Header = () => {
                 <a href="#logo"><img src={Logo} alt='logoInterlove'/></a>
             </div>
             <div className='links'>
-                <ul className='menu_links'>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Let's Work Together</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul className={showHamburger ? 'menu_links responsive-menu' : 'menu_links'}>
+                    <li><a href="#home" onClick={() => setShowHamburger(false)}>Home</a></li>
+                    <li><a href="#about" onClick={() => setShowHamburger(false)}>About</a></li>
+                    <li><a href="#work" onClick={() => setShowHamburger(false)}>Let's Work Together</a></li>
+                    <li><a href="#testimonials" onClick={() => setShowHamburger(false)}>Testimonials</a></li>
+                    <li><a href="#contact" onClick={() => setShowHamburger(false)}>Contact</a></li>
                 </ul>
-                <ul className='menu-languages'>
+                {/* <ul className='menu-languages'>
                     <li><a href="#english">EN</a></li>
                     <li><a href="#chinese">CH</a></li>
                     <li><a href="#russian">RU</a></li>
-                </ul>
+                </ul> */}
             </div>
             <div className='hamburger' onClick={showNavBar}>
                 {showHamburger ?
@@ -41,17 +41,27 @@ const Header = () => {
             </div>
         </nav>
         <div id='hero-description' className='container'>
-            <h3>Build authentic and <br/> <span>irresistible</span> self-assurance.</h3>
-            <h4>Build your self-esteem, expand your social <br/>circle, attract your perfect mate to design <br/>the life you desire.</h4>
-            <h4>As a dating coach, I can assist you in<br/> revealing your true self to establish genuine<br/> connections.</h4>
+            <div className='description-block'>
+                <h3>Build </h3>
+                <h3>authentic & </h3>
+                <h3>irresistible</h3>
+                <h3>self-assurance.</h3>
+                {/* <p>Build your self-esteem, expand your social circle. </p> */}
+                <p>Attract your perfect mate and design the life you desire.</p>
+                <p>As a dating coach, I can assist you in revealing your true self</p>
+                {/* <p>To establish genuine connections.</p> */}
+            </div>
+
             <div className='takeAction'>
                 <button className='start'><a href='#start'>Get Started</a></button>
                 <button className='book'><a href='#book'>Book Now</a></button>
             </div>
         </div>
-        <video width='100%' autoplay loop muted playsinline id="bckgrndVideo">
-            <source src={video} type="video/mp4"/>
-        </video>
+        <div id="bckgrndVideo">
+            <video width='100%' playsinline autoplay loop muted>
+                <source src={video} type="video/mp4"/>
+            </video>
+        </div >
     </section>
   )
 }

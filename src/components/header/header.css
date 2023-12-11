@@ -1,0 +1,131 @@
+#header {
+    width: 100vw;
+    height: 100vh;
+}
+#navbar {
+    display: flex;
+    overflow: hidden;
+}
+.logo {
+    width: 20%;
+}
+.links {
+    width: 75%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.logo img {
+    width: 100%;
+}
+.menu_links, .menu-languages {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu_links li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hamburger {
+    display: none;
+    margin-top: 3rem;
+    color: red;
+}
+
+@media screen and (max-width: 600px){
+
+    .hamburger {
+        display: initial;
+        z-index: 1;
+    }
+
+
+    .logo {
+        margin-top: 2.5rem;
+        z-index: 2;
+    }
+
+    #navbar .menu_links {
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        top: -3rem;
+        left: -100%;
+        background-color: #502828;
+        transition: 0.4s;
+        gap: 2rem;
+    }
+    #navbar .menu_links.responsive-menu {
+        left: 0;
+    }
+}
+
+.description-block {
+    padding: 2rem 0 0 8rem;
+}
+
+.description-block h3 {
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.hero-description {
+    display: flex;
+}
+
+.description-block p {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+.description-block p:nth-of-type(1) {
+    padding-top: 1.5rem;
+}
+
+.takeAction {
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 0.7rem;
+    padding-left: 8rem;
+}
+
+.takeAction button {
+    padding: 0.7rem 1.5rem;
+}
+
+.takeAction .start {
+    background: transparent;
+    border: 1px red solid;
+}
+
+.takeAction .book {
+    background: red;
+    border: 1px red solid;
+}
+
+.takeAction .book a {
+    color: black;
+}
+
+.takeAction button a {
+    color: white;
+    text-transform: uppercase;
+}
+#bckgrndVideo video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(25%);
+    min-width: 100%;
+    min-height: 100%;
+}
