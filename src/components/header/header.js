@@ -5,6 +5,7 @@ import { useState } from 'react'
 import {FaTimes, FaBars} from 'react-icons/fa';
 import video from '../../assets/videos/dancingcouple.mp4'
 
+
 const Header = () => {
     //showing the hamburger menu is initially set to false
     const [showHamburger, setShowHamburger] = useState(false);
@@ -58,7 +59,7 @@ const Header = () => {
             </div>
         </div>
         <div id="bckgrndVideo">
-            <video width='100%' playsinline autoplay loop muted>
+            <video width='100%' playsinline autoplay="true" loop muted>
                 <source src={video} type="video/mp4"/>
             </video>
         </div >

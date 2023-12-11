@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    background-color: black;
+}
+.about-pic {
+    width: 100%;
+}
+.about-description {
+    width: 100%;
+}
+.about-pic img {
+    width: 100%;
+}
+
+.about-description {
+    padding-top: 6rem;
+    padding-left: 3rem;
+}
+
+.about-description h5 {
+    text-transform: uppercase;
+}
+.about-description h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 3rem;
+}
+.about-desc-parag {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
