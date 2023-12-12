@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Testimonial content = "&quot;This year, I feel like a completely different individual. I am grateful to the coach for her help&quot;" name ="Alicia" />
       <About />
+      <Testimonial content = "&quot;This year, I feel like a completely different individual. I am grateful to the coach for her help&quot;" name ="Alicia" />
     </div>
   );
 }
