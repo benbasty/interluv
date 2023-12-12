@@ -41,10 +41,11 @@
     color: #fff;
     height: fit-content;
     width: 100vw;
+    padding: 2rem 0;
 }
 
 .head-request {
-    padding: 2rem 0;
+    padding: 2rem;
     text-align: center;
 }
 .head-request h4 {
@@ -56,6 +57,9 @@
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    background-color: red;
+    border-radius: 50px;
+    padding: 3rem;
 }
 .request-text-area {
     width: 60%;
@@ -65,8 +69,13 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
+}
+
+.request-text-ara-parag p {
+    font-size: 18px;
 }
 .request-pic {
     width: 40%;
@@ -76,10 +85,10 @@
     width: 100%;
     height: 90%;
 }
-.request-text h4 {
+/* .request-text h4 {
     margin-bottom: 2.5rem;
     font-size: 16px;
-}
+} */
 
 /* .request-text  */
 button {
@@ -94,7 +103,7 @@ button {
 }
 
 .button-req {
-    padding-left: 4rem;
+    padding-left: 2rem;
 }
 
 

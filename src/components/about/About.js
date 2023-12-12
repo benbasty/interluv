@@ -42,7 +42,7 @@ const About = () => {
                     <div className='button-req'>
                         <button>REQUEST A CONSULTATION</button>
                     </div>
-                    
+
                 </div>
                 <div className='request-pic'>
                     <img src={couple} alt='couple'/>
