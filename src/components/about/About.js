@@ -49,6 +49,31 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <div className='empower'>
+            <div className='empower_title container'>
+                <h1>How can I empower you ?</h1>
+            </div>
+            <div className='empower_desc container'>
+                <p>Connect with Kate to discover the pace at which you can improve your marriage, relationship, or dating life!</p>
+            </div>
+            <div className='empower_steps container'>
+                <div className='empower_step'>
+                    <h1>1</h1>
+                    <h4>Explain Your Situation</h4>
+                </div>
+                <div className='empower_step'>
+                    <h1>2</h1>
+                    <h4>Get professional coaching</h4>
+                </div>
+                <div className='empower_step'>
+                    <h1>3</h1>
+                    <h4>Ongoing Support</h4>
+                </div>
+            </div>
+            <div className='empower_button container'>
+                <button>Book a consultation</button>
+            </div>
+        </div>
     </section>
   )
 }

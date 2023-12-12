@@ -93,17 +93,85 @@
 /* .request-text  */
 button {
     background-color: transparent;
-    border-radius: 15px;
-    border-color: #ffffff;
-    border-width: 1px;
+    border-radius: 12px;
+    border-color: #0b0a0a;
+    border-width: 2px;
     border-style: solid;
     padding: 7px 10px;
     margin-bottom: 1rem;
-    color: #fff;
+    color: #040404;
 }
 
 .button-req {
     padding-left: 2rem;
+}
+
+/* empower section */
+.empower {
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(24, 22, 22)), url(../../assets/images/empower_bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    /* justify-content: center; */
+}
+
+.empower_title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.empower_desc {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 5rem;
+}
+
+.empower_steps {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.empower_step {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.empower_step h1 {
+    font-size: 110px;
+    font-weight: 800;
+    color: #a92525;
+}
+
+.empower_step h4 {
+    position: relative;
+    top: -45%;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.empower_button {
+    text-align: center;
+}
+
+.empower_button button {
+    background-color: #a92525;
+    border-color: transparent;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0.7rem 1.5rem;
 }
 
 
