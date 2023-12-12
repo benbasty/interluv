@@ -1,0 +1,70 @@
+.work-header {
+    background-color: rgb(20, 17, 17);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34.5px;
+}
+.singles, .inrelationship, .couples {
+    display: flex;
+}
+
+.singles img, .inrelationship img, .couples img{
+    width: 50%;
+}
+.singles-desc, .inrelationship-desc, .couples-desc {
+    background-color: black;
+}
+
+.singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+    font-family: 'Brusher', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 0.7rem 0;
+}
+
+.singles-desc p, .inrelationship-desc p, .couples-desc p {
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.inrelationship-desc {
+    background-color: black;
+    color: white;
+}
+
+.inrelationship-desc h3 {
+    color: #f50505;
+}
+
+/* @media screen and (max-width: 600px) {
+    .singles, .couples {
+        display: flex;
+        flex-direction: column;
+    }
+    .inrelationship {
+        flex-direction: column-reverse;
+    }
+    .singles img, .inrelationship img, .couples img{
+        width: 100%;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .work-header {
+        font-size: 24.5px;
+    }
+    .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+        font-size: 40px;
+    }
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 13px;
+    }
+} */
