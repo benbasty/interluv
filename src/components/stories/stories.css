@@ -1,0 +1,55 @@
+.successStories {
+    display: flex;
+    flex-direction: row;
+}
+.showcasePic {
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+.testimonials_success {
+    width: 40%;
+}
+
+.showcasePic img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    filter: brightness(25%);
+}
+.testimonials_success {
+    background-color: red;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials_success h1 {
+    text-transform: uppercase;
+    margin: 1rem 0 1.5rem 0;
+    font-weight: 900;
+}
+.test_success_story {
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.test_success_story p {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto 0.5rem;
+    font-style: italic;
+
+}
+
+.test_success_story h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 11px;
+    margin-bottom: 1rem;
+}
+
+.test_success_story h6 {
+    font-weight: 400;
+    font-size: 9px;
+}
+

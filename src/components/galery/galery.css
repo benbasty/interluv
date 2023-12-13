@@ -1,6 +1,6 @@
 #galery {
     background-color: white;
-    padding: 5px 0;
+    padding-top: 5px;
 }
 .pics {
     display: flex;
@@ -10,6 +10,7 @@
 
 .pics > div {
     width: 49.8%;
+
 }
 
 .pics div img {
