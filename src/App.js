@@ -6,6 +6,7 @@ import Work from './components/work/work';
 import Galery from './components/galery/galery';
 import Stories from './components/stories/stories';
 import Form from './components/form/form';
+import Joinus from './components/joinus/joinus';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Galery />
       <Stories />
       <Form />
+      <Joinus />
     </div>
   );
 }

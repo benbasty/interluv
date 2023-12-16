@@ -1,0 +1,59 @@
+#joinus {
+    background-color: red;
+    padding: 3.5rem 8rem 1rem 8rem;
+
+}
+.joinuscontainer {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.newsletter, .email {
+    width: 50%;
+}
+.email {
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+}
+.newsletter h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.newsletter p {
+    font-weight: 300;
+    margin-top: 0.2rem;
+    font-size: 18px;
+}
+
+.email_label input {
+    border-bottom: 2px solid white;
+    color: white;
+}
+.email_label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.email_label label {
+    position: relative;
+    top: 1.71rem;
+}
+
+.email button {
+    margin-top: 1.4rem;
+    background-color: white;
+    border-radius: 3px;
+    border-color: transparent;
+    padding: 0.3rem 2.8rem;
+}
+.copyright {
+    text-align: center;
+    margin: 4rem 0 0 0;
+}
+.copyright p {
+    font-size: 9px;
+}
