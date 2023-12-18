@@ -7,7 +7,7 @@ const Form = () => {
     <section id='form'>
         <div className='container form_container'>
             <div className='form_desc'>
-                <h1>Kate Yes</h1>
+                <h1>Kate Yeskevich</h1>
                 <h3>Dating Coach</h3>
                 <p>500 Guangzhou Street</p>
                 <p>Guangzhou, Guangdong China</p>

@@ -26,8 +26,10 @@
 
 .menu_links li a {
     text-decoration: none;
-    color: white;
+    color: #C9C9C9;
     text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .hamburger {
@@ -73,8 +75,9 @@
 
 .description-block h3 {
     text-transform: uppercase;
-    font-size: 75px;
-    font-weight: 900;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Lulo-Clean-One-Bold';
 }
 
 .hero-description {
@@ -83,8 +86,9 @@
 
 .description-block p {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0.5rem 0;
+    font-family: 'Raleway',sans-serif;
 }
 
 .description-block p:nth-of-type(1) {
@@ -119,6 +123,8 @@
 .takeAction button a {
     color: white;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 #bckgrndVideo video {
     position: fixed;

@@ -3,18 +3,19 @@
     flex-direction: row;
 }
 .showcasePic {
-    width: 60%;
+    width: 55%;
     height: 100%;
     overflow: hidden;
 }
 .testimonials_success {
-    width: 40%;
+    width: 45%;
 }
 
+/* height to be changed */
 .showcasePic img {
     max-height: 100%;
     max-width: 100%;
-    height: auto;
+    height: 600px;
     width: 100%;
     filter: brightness(35%);
 }
@@ -24,10 +25,13 @@
     text-align: center;
 }
 
+/* font size to be changed */
 .testimonials_success h1 {
     text-transform: uppercase;
-    margin: 1rem 0 1.5rem 0;
-    font-weight: 900;
+    margin: 3rem 0 1.5rem 0;
+    font-weight: 400;
+    font-family: 'Lulo-Clean-One-Bold';
+    font-size: 38px;
 }
 .test_success_story {
     margin-bottom: 2rem;

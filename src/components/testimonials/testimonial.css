@@ -8,15 +8,17 @@
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
 }
 
 .testimonial .name {
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     margin-top: 0.2rem;
     color: black;
+    font-family: 'Raleway',sans-serif;
 }

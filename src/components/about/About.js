@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className='about-description'>
                 <h5>About Me</h5>
-                <h1>KATE YES</h1>
+                <h1>KATE YESKEVICH</h1>
                 <div className='about-desc-parag'>
                     <p>My mission is to assist self-aware individuals in taking a bold step forward, having faith in themselves, expressing their genuine opinions, and having a smooth experience with love. My mission is to assist self-aware individuals in taking a bold step forward, having faith in themselves, expressing their genuine opinions, and having a smooth experience with love.</p>
                     <p>Your most powerful self is aware of your desires and can confidently communicate them while having faith in yourself. Your most powerful self is aware of your desires and can confidently communicate them while having faith in yourself.</p>
@@ -40,7 +40,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className='button-req'>
-                        <button>REQUEST A CONSULTATION</button>
+                        <button>BOOK A CONSULTATION</button>
                     </div>
 
                 </div>
