@@ -7,6 +7,7 @@ import Galery from './components/galery/galery';
 import Stories from './components/stories/stories';
 import Form from './components/form/form';
 import Joinus from './components/joinus/joinus';
+import Bookingform from './components/form/bookingform';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Galery />
       <Stories />
       <Form />
+      <Bookingform />
       <Joinus />
     </div>
   );
