@@ -28,3 +28,8 @@
     width: 115%;
     opacity: 0.6;
 }
+
+#emptyspace{
+    height: 60vh;
+    background-color: rgb(219, 235, 235);
+}
