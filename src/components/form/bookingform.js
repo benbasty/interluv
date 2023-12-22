@@ -82,10 +82,10 @@ const Bookingform = () => {
                         <p>kate@katewebsite.com</p>
                     </div>
                     <div className='social_media_contact'>
-                        <FaFacebookF />
-                        <FaYoutube />
-                        <FaInstagram />
-                        <FaTwitter />
+                        <span className='social_container'><FaFacebookF /></span>
+                        <span className='social_container'><FaYoutube /></span>
+                        <span className='social_container'><FaInstagram /></span>
+                        <span className='social_container'><FaTwitter /></span>
                     </div>
 
                 </div>

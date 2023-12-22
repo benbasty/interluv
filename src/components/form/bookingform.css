@@ -1,6 +1,6 @@
 #bookingform {
     background: linear-gradient(70deg, #000000, #181717, #bb1d1d, #ff0000);
-    height: 80vh;
+    height: 88vh;
     overflow: hidden;
 }
 .booking_frm_container {
@@ -36,14 +36,14 @@
 }
 
 #booking_form_main {
-    width: 70%;
+    width: 60%;
     display: flex;
     position: relative;
-    top: -12rem;
+    top: -15rem;
 }
 #booking_form_main .send_message {
     background-color: rgb(101, 113, 124);
-    width: 70%;
+    width: 60%;
     /* display: flex;
     flex-direction: column; */
 }
@@ -158,6 +158,17 @@
     color: rgb(227, 218, 218);
 }
 
+.personalInformation .submitform input {
+    padding: 0.4rem 2.4rem;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    margin-bottom: 2rem;
+    background-color: rgb(243, 82, 82);;
+}
+
 
 
 
@@ -165,5 +176,47 @@
 
 #booking_form_main .contact_info{
     background-color: rgb(31, 32, 32);
-    width: 30%;
+    width: 40%;
 }
+#booking_form_main .contact_info h1 {
+    padding: 1.2rem;
+}
+
+#booking_form_main .contact_info .phone_contact, #booking_form_main .contact_info .email_contact {
+    display: flex;
+    gap: 3rem;
+    margin: 2rem 0 2rem 3rem;
+    align-items: center;
+}
+
+#booking_form_main .contact_info .phone_contact svg, #booking_form_main .contact_info .email_contact svg {
+    height: 2rem;
+    width: 2rem;
+    color: rgb(243, 82, 82);
+    opacity: 0.7;
+}
+
+#booking_form_main .contact_info .social_media_contact {
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    margin-left: 3rem;
+
+}
+
+#booking_form_main .contact_info .social_media_contact svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+}
+
+#booking_form_main .contact_info .social_media_contact .social_container {
+    background-color: rgb(243, 82, 82);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 0.2rem 0.2rem;
+    opacity: 0.9;
+}
+
+
+
