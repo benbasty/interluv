@@ -11,14 +11,17 @@
     padding: 10rem 4rem;
 }
 .booking_form_desc h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
-    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Lulo-Clean-One-Bold';
 }
 .booking_form_desc p {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    opacity: 0.7;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
 }
 .booking_form_img {
     width: 50%;
@@ -42,7 +45,7 @@
     top: -15rem;
 }
 #booking_form_main .send_message {
-    background-color: rgb(101, 113, 124);
+    background-color: rgb(255, 255, 255);
     width: 60%;
     /* display: flex;
     flex-direction: column; */
@@ -53,6 +56,16 @@
     color: #000000;
     padding: 1.2rem;
 }
+.send_message_subtitle h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Lulo-Clean-One-Bold';
+}
+.send_message_subtitle svg {
+    height: 20px;
+    width: 20px;
+}
 
 .booking_content .service, .booking_content .datetime {
     display: flex;
@@ -62,6 +75,8 @@
 .booking_content .service label, .booking_content .datetime label {
     margin: 0 0 0.5rem 1.2rem;
     font-weight: 800;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
 }
 .booking_content .service select {
     margin: 0.2rem 1.2rem 0.5rem 1.2rem;
@@ -70,9 +85,12 @@
     -webkit-appearance: none;
     appearance: none;
     background-image: url('../../assets/icons/arrow-down-sign-to-navigate.png');
-    background-size: 24px;
+    background-size: 22px;
     background-repeat: no-repeat;
     background-position: calc(100% - 16px) center;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
 }
 
 .booking_content .datetime .datetimeinputs {
@@ -87,18 +105,26 @@
     border-radius: 25px;
     padding: 0.8rem;
     color: #000000;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
 
 }
 .datetimeinputs input:nth-of-type(2) {
     width: 25%;
-    background-color: azure;
     border-radius: 25px;
     padding: 0.8rem;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
 }
 
 .personalInformation h1 {
     color: #000000;
     padding: 1.2rem;
+    font-weight: 800;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
 }
 
 .personalInformation .name, .personalInformation .emailnumber {
@@ -116,15 +142,26 @@
     -webkit-appearance: none;
     appearance: none;
     background-image: url('../../assets/icons/arrow-down-sign-to-navigate.png');
-    background-size: 24px;
+    background-size: 22px;
     background-repeat: no-repeat;
     background-position: calc(100% - 16px) center;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
 }
 .personalInformation .name input {
     width: 50%;
-    background-color: azure;
     border-radius: 25px;
     padding: 0.8rem;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 400
+}
+.personalInformation .name input::placeholder {
+    color: #000;
+    font-weight: 400;
 }
 
 .personalInformation .emailnumber input:nth-of-type(1) {
@@ -132,16 +169,28 @@
     border-radius: 25px;
     padding: 0.8rem;
     color: #000000;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 400
 }
 .personalInformation .emailnumber input:nth-of-type(2) {
     width: 50%;
-    background-color: azure;
     border-radius: 25px;
     padding: 0.8rem;
+    background-color: rgba(243, 82, 82, 0.521);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.personalInformation .emailnumber input:nth-of-type(2)::placeholder {
+    color: #000;
+    font-weight: 400;
 }
 
 .personalInformation .emailnumber input:nth-of-type(1)::placeholder {
-    color: rgb(227, 218, 218);
+    color: rgb(0, 0, 0);
 }
 
 .personalInformation .textarea, .personalInformation .submitform {
@@ -153,9 +202,14 @@
     width: 100%;
     height: auto;
     padding: 1rem 0 0 1rem;
+    background-color: rgba(243, 82, 82, 0.369);
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    color: #000000;
 }
 .personalInformation .textarea textarea::placeholder {
-    color: rgb(227, 218, 218);
+    color: rgb(0, 0, 0);
+    font-weight: 100;
 }
 
 .personalInformation .submitform input {
