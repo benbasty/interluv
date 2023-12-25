@@ -151,10 +151,17 @@
     .description-block p {
         font-size: 20px;
     }
-    #bckgrndVideo video {
-        top: -1rem;
-    }
     .links {
         margin-top: 2rem;
+    }
+}
+
+/* SurfacePro7 */
+@media screen and (max-width: 918px) {
+    .description-block h3 {
+        font-size: 30px;
+    }
+    .description-block p {
+        font-size: 15px;
     }
 }

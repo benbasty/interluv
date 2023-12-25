@@ -96,3 +96,13 @@ input:last-of-type {
         height: fit-content;
     }
 }
+
+/* SurfacePro7 */
+@media screen and (max-width: 918px) {
+    #form {
+        height: auto;
+    }
+    .form_container {
+        padding: 0.1rem 3rem 2rem;
+    }
+}

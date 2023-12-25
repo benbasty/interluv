@@ -66,3 +66,15 @@
         width: 60%;
     }
 }
+
+
+/* SurfacePro7 */
+@media screen and (max-width: 918px) {
+    .testimonials_success h1 {
+        font-size: 34px;
+    }
+    .test_success_story p {
+        width: 75%;
+        margin: 0 auto 0.3rem;
+    }
+}

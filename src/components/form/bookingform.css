@@ -315,6 +315,26 @@
     }
 }
 
+/* SurfacePro7 */
+@media screen and (max-width: 918px) {
+    #emptyspace {
+        height: fit-content;
+    }
+    .booking_form_desc h1 {
+        font-size: 1.7rem;
+    }
+    .booking_form_desc p {
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+    }
+    .booking_form_img {
+        margin-bottom: -0.2rem;
+    }
+    .booking_form_img img {
+        width: 205%;
+    }
+}
+
 
 
 
