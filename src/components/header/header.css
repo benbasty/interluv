@@ -135,3 +135,13 @@
     min-width: 100%;
     min-height: 100%;
 }
+
+/* media queries */
+@media screen and (max-width: 1280px){
+    #header {
+        height: fit-content;
+    }
+    #bckgrndVideo video {
+        top: -2.5rem;
+    }
+}
