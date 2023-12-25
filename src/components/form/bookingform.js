@@ -1,6 +1,6 @@
 import React from 'react'
 import './bookingform.css'
-import bookingFormImg from '../../assets/images/bookingfrm-nobg.png'
+import bookingFormImg from '../../assets/images/pfbg.png'
 import { BiSolidMessageRounded } from "react-icons/bi";
 import { MdPhoneIphone, MdEmail } from "react-icons/md";
 import { FaFacebookF, FaYoutube, FaInstagram, FaTwitter} from "react-icons/fa";

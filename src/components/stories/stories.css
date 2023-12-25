@@ -57,6 +57,7 @@
     font-size: 9px;
 }
 
+/* Next Hub */
 @media screen and (max-width: 1024px) {
     .showcasePic {
         width: 40%;

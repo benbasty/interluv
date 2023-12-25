@@ -25,6 +25,7 @@
     opacity: 0.7;
 }
 
+/* Next Hub */
 @media screen and (max-width: 1024px) {
     .pics {
         gap: 3px;

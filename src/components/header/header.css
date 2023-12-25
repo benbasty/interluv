@@ -128,24 +128,21 @@
 }
 #bckgrndVideo video {
     position: fixed;
+    top: 0;
     right: 0;
-    bottom: 0;
     z-index: -1;
     filter: brightness(25%);
-    min-width: 100%;
-    min-height: 100%;
 }
 
 /* media queries */
+/* Next Hub Max */
 @media screen and (max-width: 1280px){
     #header {
         height: fit-content;
     }
-    #bckgrndVideo video {
-        top: -2.5rem;
-    }
 }
 
+/* Next Hub */
 @media screen and (max-width: 1024px) {
 
     .description-block h3 {

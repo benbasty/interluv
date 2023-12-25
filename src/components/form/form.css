@@ -78,11 +78,21 @@ input:last-of-type {
     font-size: 14px;
 }
 
+/* Next Hub */
 @media screen and (max-width: 1024px) {
     #form {
         padding-top: 3rem;
     }
     .form_container {
         padding: 0.1rem 6rem 2rem;
+    }
+}
+
+/* ipad pro */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px) {
+    #form {
+        height: fit-content;
     }
 }
