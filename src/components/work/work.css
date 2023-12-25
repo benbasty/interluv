@@ -44,6 +44,13 @@
     color: #f50505;
 }
 
+@media screen and (max-width: 1024px) {
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 16px;
+        padding-bottom: 1rem;
+    }
+}
+
 /* @media screen and (max-width: 600px) {
     .singles, .couples {
         display: flex;

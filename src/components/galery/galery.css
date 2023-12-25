@@ -24,3 +24,9 @@
 .pics div img:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1024px) {
+    .pics {
+        gap: 3px;
+    }
+}

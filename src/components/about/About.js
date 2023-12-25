@@ -5,7 +5,7 @@ import couple from '../../assets/images/couple.jpg'
 
 const About = () => {
   return (
-    <section>
+    <section id='about'>
         <div className='about'>
             <div className='about-pic'>
                 <img src={pic} alt='coach'/>

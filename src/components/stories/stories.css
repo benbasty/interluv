@@ -57,3 +57,11 @@
     font-size: 9px;
 }
 
+@media screen and (max-width: 1024px) {
+    .showcasePic {
+        width: 40%;
+    }
+    .testimonials_success {
+        width: 60%;
+    }
+}

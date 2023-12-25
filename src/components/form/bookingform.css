@@ -272,5 +272,26 @@
     opacity: 0.9;
 }
 
+@media screen and (max-width: 1024px) {
+    .booking_form_desc h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+    }
+    .booking_form_desc p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    #emptyspace {
+        height: 90vh;
+    }
+    #booking_form_main {
+        width: 80%;
+        top: -11rem;
+    }
+    #booking_form_main .contact_info .phone_contact, #booking_form_main .contact_info .email_contact {
+        gap: 1rem;
+    }
+}
+
 
 

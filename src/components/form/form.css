@@ -77,3 +77,12 @@ input:last-of-type {
     align-self: flex-end;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1024px) {
+    #form {
+        padding-top: 3rem;
+    }
+    .form_container {
+        padding: 0.1rem 6rem 2rem;
+    }
+}
