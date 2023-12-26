@@ -52,6 +52,13 @@
     }
 }
 
+/* Ipad Air */
+@media screen and (max-width: 820px) {
+    .work-header {
+        font-size: 32px;
+    }
+}
+
 /* @media screen and (max-width: 600px) {
     .singles, .couples {
         display: flex;

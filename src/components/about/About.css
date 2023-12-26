@@ -239,3 +239,19 @@ button {
         font-size: 34px;
     }
 }
+
+/* Ipad Air */
+@media screen and (max-width: 820px) {
+    .about-description h1 {
+        font-size: 20px;
+    }
+    .about-desc-parag {
+        font-size: 11px;
+    }
+    .head-request h4 {
+        font-size: 22px;
+    }
+    .empower_title h1 {
+        font-size: 32px;
+    }
+}
