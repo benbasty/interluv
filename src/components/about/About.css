@@ -255,3 +255,33 @@ button {
         font-size: 32px;
     }
 }
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+    #about {
+        width: 100%;
+    }
+    .about-description h1 {
+        font-size: 18px;
+    }
+    .about-desc-parag {
+        font-size: 10.5px;
+    }
+    .head-request h4 {
+        font-size: 20px;
+    }
+    .empower_title h1 {
+        font-size: 30px;
+    }
+    .empower_desc {
+        width: 80%;
+        margin-bottom: 2rem;
+        font-size: 18px;
+    }
+    .empower_step {
+        margin-bottom: 3rem;
+    }
+    .empower_step h4 {
+        font-size: 14px;
+    }
+}

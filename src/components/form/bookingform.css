@@ -357,5 +357,24 @@
     }
 }
 
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+    .booking_form_desc h1 {
+        font-size: 1.4rem;
+    }
+    .booking_form_desc p {
+        font-size: 0.6rem;
+    }
+    .booking_form_img img {
+        width: 220%;
+    }
+    #booking_form_main .contact_info .phone_contact, #booking_form_main .contact_info .email_contact {
+        margin: 2rem 0 2rem 1.8rem;
+    }
+    #booking_form_main .contact_info .social_media_contact {
+        margin-left: 1.8rem;
+    }
+}
+
 
 

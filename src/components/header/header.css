@@ -178,3 +178,13 @@
         font-size: 28px;
     }
 }
+
+/* Ipad Mini */
+@media screen and (max-width: 820px) {
+    .menu_links li a {
+        font-size: 12px;
+    }
+    .description-block h3 {
+        font-size: 25px;
+    }
+}

@@ -39,3 +39,10 @@
         margin-left: 0.1rem;
     }
 }
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+    .testimonial {
+        width: 100%;
+    }
+}

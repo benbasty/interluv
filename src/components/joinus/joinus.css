@@ -85,3 +85,16 @@
         font-size: 13px;
     }
 }
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+    .newsletter h1 {
+        font-size: 16px;
+    }
+    .newsletter p {
+        font-size: 12px;
+    }
+    .copyright p {
+        font-size: 9px;
+        margin-left: 5rem;
+    }
+}
