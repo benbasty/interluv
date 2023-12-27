@@ -31,3 +31,16 @@
         gap: 3px;
     }
 }
+
+/* Surface duo */
+@media screen and (max-width: 540px) {
+    .pics {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5px;
+    }
+    .pics > div {
+        width: 100%;
+    }
+}

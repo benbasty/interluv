@@ -72,6 +72,29 @@
     }
 }
 
+/* Surface duo */
+@media screen and (max-width: 540px) {
+    .work-header {
+        font-size: 22px;
+    }
+    .singles, .inrelationship, .couples {
+        display: flex;
+        flex-direction: column;
+    }
+    .singles img, .inrelationship img, .couples img {
+        width: 100%;
+        display: none;
+    }
+    .singles-desc, .inrelationship-desc, .couples-desc {
+        padding: 1rem 2rem;
+    }
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 18px;
+        padding: 0.8rem;
+        line-height: 1;
+    }
+}
+
 
 
 /* @media screen and (max-width: 600px) {

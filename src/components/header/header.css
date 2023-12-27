@@ -63,6 +63,7 @@
         background-color: #502828;
         transition: 0.4s;
         gap: 2rem;
+        z-index: 1;
     }
     #navbar .menu_links.responsive-menu {
         left: 0;
@@ -186,5 +187,33 @@
     }
     .description-block h3 {
         font-size: 25px;
+    }
+}
+
+/* Surface duo */
+@media screen and (max-width: 540px) {
+    .logo {
+        margin-top: 0.7rem;
+    }
+    .hamburger {
+        margin-top: 1.5rem;
+    }
+    .description-block {
+        padding: 0.5rem 0 0 0.5rem;
+    }
+    .description-block h3 {
+        font-size: 14px;
+    }
+    .description-block p:nth-of-type(1) {
+        padding-top: 1rem;
+    }
+    .description-block p {
+        font-size: 12px;
+    }
+    .takeAction {
+        margin: 0.15rem 0;
+        display: flex;
+        gap: 0.7rem;
+        padding-left: 0.5rem;
     }
 }

@@ -98,3 +98,22 @@
         margin-left: 5rem;
     }
 }
+
+/* surface duo */
+@media screen and (max-width: 540px) {
+    .joinuscontainer {
+        display: flex;
+        gap: 3rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .newsletter, .email {
+        width: 100%;
+    }
+
+    .email_label {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}

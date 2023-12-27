@@ -376,5 +376,32 @@
     }
 }
 
-
+/* surface duo */
+@media screen and (max-width: 540px) {
+    .booking_form_desc {
+        width: 80%;
+        padding: 10rem 2rem;
+    }
+    .booking_form_desc h1 {
+        font-size: 1rem;
+    }
+    .booking_form_desc p {
+        font-size: 0.7rem;
+    }
+    .booking_form_img {
+        display: none;
+    }
+    #booking_form_main {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    #booking_form_main .send_message {
+        width: 100%;
+    }
+    #booking_form_main .contact_info {
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
 

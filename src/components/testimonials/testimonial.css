@@ -46,3 +46,15 @@
         width: 100%;
     }
 }
+
+/* Surface duo */
+@media screen and (max-width: 540px) {
+    .testimonial .content {
+        font-size: 14px;
+        margin-left: 0rem;
+    }
+    .testimonial .name {
+        font-size: 13px;
+        margin-left: -3rem;
+    }
+}

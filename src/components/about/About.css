@@ -285,3 +285,63 @@ button {
         font-size: 14px;
     }
 }
+
+/* Surface duo */
+@media screen and (max-width: 540px) {
+    .about {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .about-pic {
+        width: 100%;
+    }
+    .about-description {
+        width: 100%;
+        padding: 2rem 0 3rem 3rem;
+    }
+    .about-desc-parag {
+        width: 90%;
+        gap: 1rem;
+        font-size: 16px;
+    }
+    .head-request h4 {
+        font-size: 14px;
+    }
+    .request-description {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        padding: 2rem;
+        border-radius: 15px;
+    }
+    .request-pic {
+        width: 100%;
+    }
+    .request-pic img {
+        border-radius: 10px;
+    }
+    .request-text-area {
+        width: 100%;
+    }
+    .request-text-ara-parag {
+        gap: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        padding-left: 0rem;
+    }
+    .button-req {
+        padding-left: 0rem;
+    }
+    .empower_title h1 {
+        font-size: 20px;
+    }
+    .empower_desc {
+        margin-bottom: 0.5rem;
+        font-size: 15px;
+    }
+    .empower_step h4 {
+        font-size: 12px;
+    }
+    .empower_step {
+        margin-bottom: 1rem;
+    }
+}

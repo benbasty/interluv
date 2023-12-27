@@ -116,3 +116,18 @@ input:last-of-type {
         font-size: 14px;
     }
 }
+
+/* surface duo */
+@media screen and (max-width: 540px) {
+    .form_container {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 2rem 3rem;
+    }
+    .form_desc {
+        width: 100%;
+    }
+    .form_questionnaire {
+        width: 100%;
+    }
+}

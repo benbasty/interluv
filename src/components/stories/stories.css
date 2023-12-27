@@ -89,3 +89,17 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .successStories {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .showcasePic {
+        width: 100%;
+        display: none;
+    }
+    .testimonials_success {
+        width: 100%;
+    }
+}
