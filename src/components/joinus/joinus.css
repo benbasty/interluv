@@ -132,3 +132,17 @@
         flex-direction: column;
     }
 }
+/* Iphone XR */
+@media screen and (max-width: 414px) {
+    .email {
+        display: flex;
+        gap: 0.2rem;
+    }
+    input:last-of-type {
+        /* align-self: flex-end; */
+    }
+    .email button {
+        text-align: center;
+        width: 108%;
+    }
+}
