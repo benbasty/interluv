@@ -25,10 +25,24 @@
     opacity: 0.7;
 }
 
+/* ipad air landscape mode */
+@media screen and (max-width: 1180px) {
+    .pics {
+        gap: 3px;
+    }
+}
+
 /* Next Hub */
 @media screen and (max-width: 1024px) {
     .pics {
         gap: 3px;
+    }
+}
+
+/* surface duo landscape mode */
+@media screen and (max-width: 720px) {
+    .pics {
+        gap: 2px;
     }
 }
 

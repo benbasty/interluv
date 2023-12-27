@@ -99,6 +99,13 @@
     }
 }
 
+/* surface duo landscape mode */
+@media screen and (max-width: 720px) {
+    .joinuscontainer {
+        gap: 1rem;
+    }
+}
+
 /* surface duo */
 @media screen and (max-width: 540px) {
     .joinuscontainer {

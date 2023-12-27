@@ -57,6 +57,17 @@
     font-size: 9px;
 }
 
+/* ipad air landscape mode */
+@media screen and (max-width: 1180px) {
+    .testimonials_success h1 {
+        font-size: 32px;
+    }
+    .test_success_story p {
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
 /* Next Hub */
 @media screen and (max-width: 1024px) {
     .showcasePic {
@@ -87,6 +98,13 @@
     .test_success_story p {
         font-size: 18px;
         width: 80%;
+    }
+}
+
+/* surface duo landscape mode */
+@media screen and (max-width: 720px) {
+    .testimonials_success h1 {
+        font-size: 28px;
     }
 }
 

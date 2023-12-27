@@ -181,7 +181,7 @@
 }
 
 /* Ipad Mini */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
     .menu_links li a {
         font-size: 12px;
     }
@@ -189,6 +189,26 @@
         font-size: 25px;
     }
 }
+
+/* surface duo landscape mode */
+@media screen and (max-width: 720px) {
+    .menu_links li a {
+        font-size: 10px;
+    }
+    .links {
+        margin-top: 1.7rem;
+    }
+    .description-block {
+        padding: 1.6rem 0 0 5rem;
+    }
+    .description-block h3 {
+        font-size: 22px;
+    }
+    .takeAction {
+        padding-left: 5rem;
+    }
+}
+
 
 /* Surface duo */
 @media screen and (max-width: 540px) {
