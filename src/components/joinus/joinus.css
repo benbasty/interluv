@@ -124,3 +124,11 @@
         position: relative;
     }
 }
+
+/* Iphone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -246,3 +246,13 @@
         padding-left: 0.5rem;
     }
 }
+
+/* Iphone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    .description-block h3 {
+        font-size: 10px;
+    }
+    .description-block p {
+        font-size: 10px;
+    }
+}

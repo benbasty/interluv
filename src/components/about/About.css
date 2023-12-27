@@ -397,3 +397,10 @@ button {
         margin-bottom: 1rem;
     }
 }
+
+/* Iphone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    .empower_title h1 {
+        font-size: 16px;
+    }
+}
