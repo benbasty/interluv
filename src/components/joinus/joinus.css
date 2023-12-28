@@ -166,3 +166,23 @@
         margin-left: 1rem;
     }
 }
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .newsletter h1 {
+        font-size: 12px;
+    }
+    input:last-of-type {
+        padding: 0.3rem 2.5rem;
+        align-self: initial;
+        font-size: 12px;
+        width: 100%;
+    }
+    .copyright p {
+        font-size: 4px;
+        margin-left: 4rem;
+    }
+    .container {
+        
+    }
+}

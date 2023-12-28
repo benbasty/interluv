@@ -306,7 +306,25 @@
 
 /* Galaxy Fold */
 @media screen and (max-width: 280px) {
-
+    .hamburger {
+        margin-top: 0.7rem;
+        margin-right: 0rem;
+    }
+    .description-block {
+        padding: 0rem 0 0 0rem;
+    }
+    .description-block p {
+        padding: 0.2rem 0;
+    }
+    .takeAction {
+    padding-left: 0rem;
+    }
+    .takeAction button {
+        padding: 0.3rem 1rem;
+    }
+    .takeAction .start, .takeAction .book {
+        font-size: 10px;
+    }
 }
 
 /* and recheck all landscapes sizes 653, 667, 740, 932, 844, */

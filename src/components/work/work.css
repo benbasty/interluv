@@ -101,3 +101,16 @@
         font-size: 50px;
     }
 }
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .work-header {
+        font-size: 14px;
+    }
+    .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+        font-size: 35px;
+    }
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 12px;
+    }
+}

@@ -82,3 +82,15 @@
         font-size: 8px;
     }
 }
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .testimonial .content {
+        width: 90%;
+        font-size: 7px;
+    }
+    .testimonial .name {
+        font-size: 9px;
+        margin-left: -2rem;
+    }
+}

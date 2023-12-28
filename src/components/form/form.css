@@ -131,3 +131,15 @@ input:last-of-type {
         width: 100%;
     }
 }
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .form_container {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 1rem 1rem;
+    }
+    .form_desc p, label {
+        font-size: 12px;
+    }
+}
