@@ -195,7 +195,7 @@
         font-size: 12px;
     }
     .description-block h3 {
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 
@@ -211,7 +211,7 @@
         padding: 1.6rem 0 0 5rem;
     }
     .description-block h3 {
-        font-size: 22px;
+        font-size: 21px;
     }
     .takeAction {
         padding-left: 5rem;
@@ -282,12 +282,26 @@
 
 /* Iphone 12 Pro */
 @media screen and (max-width: 390px) {
-
+    .hamburger {
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+    .description-block h3 {
+        font-size: 8px;
+    }
+    .description-block p:nth-of-type(1) {
+        padding-top: 0.5rem;
+    }
 }
 
-/* Samsung Galaxy S8 */
+/* Samsung Galaxy S8+ */
 @media screen and (max-width: 360px) {
-
+    .description-block h3 {
+        font-size: 7px;
+    }
+    .description-block p:nth-of-type(1) {
+        padding-top: 0.4rem;
+    }
 }
 
 /* Galaxy Fold */

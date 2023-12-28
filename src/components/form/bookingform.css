@@ -451,3 +451,49 @@
     }
 }
 
+/* Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+    .booking_form_desc h1 {
+        font-size: 1.5rem;
+    }
+    .booking_form_desc {
+        width: 90%;
+    }
+    .booking_form_desc p {
+        font-size: 0.7rem;
+    }
+    .send_message_subtitle h1 {
+        font-size: 14px;
+    }
+    .booking_content .service label, .booking_content .datetime label {
+        font-size: 14px;
+    }
+    .booking_content .service select {
+        background-size: 16px;
+        font-size: 10px;
+    }
+    .booking_content .datetime input:nth-of-type(1) {
+        font-size: 10px;
+    }
+    .datetimeinputs input:nth-of-type(2) {
+        width: 35%;
+        font-size: 10px;
+    }
+    .personalInformation .name select {
+        font-size: 8px;
+        background-size: 14px;
+    }
+    .personalInformation .name input {
+        font-size: 8px;
+    }
+    .personalInformation .emailnumber input:nth-of-type(1) {
+        font-size: 8px;
+    }
+    .personalInformation .emailnumber input:nth-of-type(2) {
+        font-size: 8px;
+    }
+    .personalInformation .textarea textarea {
+        font-size: 8px;
+    }
+}
+

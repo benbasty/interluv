@@ -128,3 +128,21 @@
         font-size: 24px;
     }
 }
+
+/* Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+    .testimonials_success h1 {
+        font-size: 26px;
+    }
+    .test_success_story p {
+        font-size: 16px;
+        width: 85%;
+    }
+}
+
+/* Samsung Galaxy S8+ */
+@media screen and (max-width: 360px) {
+    .testimonials_success h1 {
+        font-size: 22px;
+    }
+}
