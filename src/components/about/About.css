@@ -404,3 +404,16 @@ button {
         font-size: 16px;
     }
 }
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .empower_title h1 {
+        font-size: 14px;
+    }
+    .empower_desc {
+        font-size: 12px;
+    }
+    .empower_step h4 {
+        font-size: 11px;
+    }
+}

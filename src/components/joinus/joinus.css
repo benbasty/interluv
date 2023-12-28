@@ -146,3 +146,15 @@
         width: 108%;
     }
 }
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .joinuscontainer {
+        width: auto;
+        padding-right: 0rem;
+    }
+    .copyright p {
+        font-size: 8px;
+        margin-left: 1rem;
+    }
+}

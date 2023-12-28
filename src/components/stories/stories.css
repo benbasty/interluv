@@ -121,3 +121,10 @@
         width: 100%;
     }
 }
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .testimonials_success h1 {
+        font-size: 24px;
+    }
+}

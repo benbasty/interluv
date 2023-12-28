@@ -266,3 +266,34 @@
         font-size: 9px;
     }
 }
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .description-block h3 {
+        font-size: 7px;
+    }
+    .description-block p {
+        font-size: 6px;
+    }
+    .takeAction button a {
+        font-size: 10px;
+    }
+}
+
+/* Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+
+}
+
+/* Samsung Galaxy S8 */
+@media screen and (max-width: 360px) {
+
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+
+}
+
+/* and recheck all landscapes sizes 653, 667, 740, 932, 844, */
+
