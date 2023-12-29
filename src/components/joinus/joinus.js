@@ -4,7 +4,7 @@ import './joinus.css';
 const Joinus = () => {
   return (
     <section id='joinus'>
-      <div className='container joinuscontainer'>
+      <div className='joinuscontainer'>
         <div className='newsletter'>
               <h1>Join us on newsletter</h1>
               <p>
@@ -20,7 +20,7 @@ const Joinus = () => {
           </div>
 
       </div>
-      <div className='copyright container'>
+      <div className='copyright'>
         <p>&copy; 2024 Interlove. Designed By Benbasty</p>
       </div>
 

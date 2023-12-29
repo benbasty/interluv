@@ -15,6 +15,7 @@
     display: flex;
     align-self: center;
     gap: 1rem;
+    justify-content: flex-end;
 }
 .newsletter h1 {
     text-transform: uppercase;
@@ -97,12 +98,38 @@
         font-size: 9px;
         margin-left: 5rem;
     }
+    .newsletter, .email {
+        width: 50%;
+    }
+    .joinuscontainer {
+        display: flex;
+        gap: 9rem;
+        justify-content: space-between;
+    }
 }
 
 /* surface duo landscape mode */
 @media screen and (max-width: 720px) {
     .joinuscontainer {
-        gap: 1rem;
+        gap: 8rem;
+    }
+}
+
+/* Galaxy Fold Landscape + Iphone SE */
+@media screen and (max-width: 667px) {
+    .joinuscontainer {
+        display: flex;
+        gap: 6rem;
+        justify-content: space-between;
+    }
+    .email {
+        display: flex;
+        align-self: initial;
+        gap: 0rem;
+        flex-direction: column;
+    }
+    input:last-of-type {
+        padding: 0 0.8rem 0.5rem;
     }
 }
 
@@ -110,60 +137,58 @@
 @media screen and (max-width: 540px) {
     .joinuscontainer {
         display: flex;
-        gap: 3rem;
+        gap: 1rem;
         justify-content: space-between;
         flex-direction: column;
+        margin-left: 1rem;
     }
-    .newsletter, .email {
+    .newsletter{
         width: 100%;
     }
-
-    .email_label {
+    .email {
         display: flex;
-        flex-direction: column;
-        position: relative;
+        gap: 1rem;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
     }
 }
 
 /* Iphone 14 Pro Max */
 @media screen and (max-width: 430px) {
-    .email {
-        display: flex;
-        flex-direction: column;
-    }
 }
 /* Iphone XR */
 @media screen and (max-width: 414px) {
-    .email {
-        display: flex;
-        gap: 0.2rem;
-    }
-    input:last-of-type {
-        /* align-self: flex-end; */
-    }
-    .email button {
-        text-align: center;
-        width: 108%;
-    }
-}
-
-/* Iphone SE */
-@media screen and (max-width: 375px) {
-    .joinuscontainer {
-        width: auto;
-        padding-right: 0rem;
-    }
-    .copyright p {
-        font-size: 8px;
-        margin-left: 1rem;
-    }
 }
 
 /* Iphone 12 Pro */
 @media screen and (max-width: 390px) {
     .copyright p {
-        font-size: 8px;
-        margin-left: 1rem;
+        font-size: 7px;
+    }
+    .email {
+        display: flex;
+        gap: 0rem;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    input:last-of-type {
+        padding: 0 1.2rem 0.2rem;
+    }
+}
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    input:last-of-type {
+        padding: 0 0.8rem 0.2rem;
+    }
+}
+
+/* samsung galaxy S8+ */
+@media screen and (max-width: 360px) {
+    input:last-of-type {
+        padding: 0 0.3rem 0.2rem;
     }
 }
 
@@ -183,3 +208,4 @@
         margin-left: 4rem;
     }
 }
+

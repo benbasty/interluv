@@ -157,3 +157,13 @@
         width: 90%;
     }
 }
+
+/* Galaxy Fold Landscape + Iphone SE */
+@media screen and (max-width: 667px) {
+    .testimonials_success h1 {
+        font-size: 25px;
+    }
+    .test_success_story p {
+        font-size: 14px;
+    }
+}

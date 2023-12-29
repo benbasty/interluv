@@ -39,6 +39,13 @@
     }
 }
 
+/* Samsung galxy S8+ */
+@media screen and (max-width: 740px) {
+    .pics {
+        gap: 1px;
+    }
+}
+
 /* surface duo landscape mode */
 @media screen and (max-width: 720px) {
     .pics {

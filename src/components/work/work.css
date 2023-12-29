@@ -57,6 +57,9 @@
     .work-header {
         font-size: 32px;
     }
+    .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+        font-size: 60px;
+    }
 }
 
 
@@ -94,6 +97,12 @@
         line-height: 1;
     }
 }
+/* Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+    .work-header {
+        font-size: 18px;
+    }
+}
 
 /* Samsung Galaxy S8+ */
 @media screen and (max-width: 360px) {
@@ -109,6 +118,19 @@
     }
     .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
         font-size: 35px;
+    }
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 12px;
+    }
+}
+
+/* Galaxy Fold Landscape + Iphone SE */
+@media screen and (max-width: 667px) {
+    /* .work-header {
+        font-size: 26px;
+    } */
+    .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+        /* font-size: 45px; */
     }
     .singles-desc p, .inrelationship-desc p, .couples-desc p {
         font-size: 12px;

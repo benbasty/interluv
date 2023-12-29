@@ -176,16 +176,25 @@
     }
 }
 
+
+
 /* Ipad Air */
 @media screen and (max-width: 820px) {
-    .menu_links li a {
-        font-size: 13px;
-    }
     .menu_links {
         margin-top: -0.5rem;
     }
     .description-block h3 {
         font-size: 28px;
+    }
+}
+
+/* Iphone 12 Pro */
+@media screen and (max-width: 844px) {
+    .menu_links li a {
+        font-size: 13px;
+    }
+    .menu_links {
+        margin-top: -0.5rem;
     }
 }
 
@@ -196,6 +205,19 @@
     }
     .description-block h3 {
         font-size: 24px;
+    }
+}
+
+/* Samsung galxy S8+ */
+@media screen and (max-width: 740px) {
+    .menu_links li a {
+        font-size: 11px;
+    }
+    .links {
+        margin-top: 1.7rem;
+    }
+    .description-block p {
+        font-size: 14px;
     }
 }
 
@@ -215,6 +237,19 @@
     }
     .takeAction {
         padding-left: 5rem;
+    }
+}
+
+/* Galaxy Fold Landscape + Iphone SE */
+@media screen and (max-width: 667px) {
+    .menu_links li a {
+        font-size: 8px;
+    }
+    .menu_links {
+    margin-top: -0.8rem;
+    }
+    .description-block p {
+        font-size: 13px;
     }
 }
 
@@ -283,7 +318,7 @@
 /* Iphone 12 Pro */
 @media screen and (max-width: 390px) {
     .hamburger {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         margin-right: 1rem;
     }
     .description-block h3 {

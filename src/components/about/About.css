@@ -210,7 +210,13 @@ button {
         font-size: 18.5px;
     }
 }
-
+/* Next Hub */
+@media screen and (max-width: 932px) {
+    .about-description {
+        padding-top: 1.2rem;
+        padding-left: 2rem;
+    }
+}
 
 /* Next Hub */
 @media screen and (max-width: 1024px) {
@@ -401,7 +407,7 @@ button {
 /* Iphone 14 Pro Max */
 @media screen and (max-width: 430px) {
     .empower_title h1 {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -422,7 +428,6 @@ button {
 @media screen and (max-width: 390px) {
     .empower_steps {
         gap: 1rem;
-        margin-left: -1.2rem;
     }
 }
 
@@ -459,5 +464,22 @@ button {
     .empower_button button {
         font-size: 12px;
         padding: 0.7rem 1.5rem;
+    }
+}
+
+/* Galaxy Fold Landscape + Iphone SE */
+@media screen and (max-width: 667px) {
+    .about-description {
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+    }
+    .about-desc-parag {
+        font-size: 9.6px;
+    }
+    .head-request h4 {
+        font-size: 16px;
+    }
+    .empower_desc {
+        font-size: 16px;
     }
 }

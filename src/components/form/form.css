@@ -73,9 +73,15 @@ input:last-of-type {
     color: black;
     background-color: red;
     border-color: transparent;
-    padding: 0.3rem 2.5rem;
+    /* padding: 0.3rem 2.5rem; */
     align-self: flex-end;
     font-size: 14px;
+}
+/* iphone14promax */
+@media screen and (max-width: 932px) {
+    #form {
+        height: fit-content;
+    }
 }
 
 /* Next Hub */
